@@ -10,8 +10,7 @@ from app.models.pydantic import (  # isort:skip
     SummaryResponseSchema,
     SummaryUpdatePayloadSchema,
 )
-from app.models.tortoise import SummarySchema, TextSummary
-from typing import Union
+from app.models.tortoise import SummarySchema
 
 
 router = APIRouter()
