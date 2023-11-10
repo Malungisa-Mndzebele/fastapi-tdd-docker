@@ -14,3 +14,4 @@ class SummaryResponseSchema(SummaryPayloadSchema):
 
 class SummaryUpdatePayloadSchema(SummaryPayloadSchema):
     summary: str
+    
